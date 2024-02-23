@@ -125,7 +125,7 @@ sudo mv $HOME/celestia-appd.service /etc/systemd/system/
 
 ----------------------------------------------------
 sudo systemctl enable celestia-appd
-sudo systemctl daemon-reload
+sudo daemon-reload
 sudo systemctl restart celestia-appd && journalctl -u celestia-appd -f -o cat
 
 ------------------------------------------------------------
