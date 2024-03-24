@@ -22,7 +22,7 @@ rm -rf celestia-app
 git clone https://github.com/celestiaorg/celestia-app.git
 cd celestia-app
 git checkout v0.6.0
-make install
+make install.1
 
 -------------------------------------------------
 celestia-appd version
